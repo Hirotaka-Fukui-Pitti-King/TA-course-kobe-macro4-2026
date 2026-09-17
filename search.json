@@ -1,0 +1,42 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Macroeconomics IV 2026: TA Session",
+    "section": "",
+    "text": "Macroeconomics IV 2026",
+    "crumbs": [
+      "Macroeconomics IV 2026"
+    ]
+  },
+  {
+    "objectID": "index.html#ta-session",
+    "href": "index.html#ta-session",
+    "title": "Macroeconomics IV 2026: TA Session",
+    "section": "TA Session",
+    "text": "TA Session\n講義課題の解説資料です。\n\n\n\nExercise\nTopic\n\n\n\n\nExercise 1\nDynamic Programming",
+    "crumbs": [
+      "Macroeconomics IV 2026"
+    ]
+  },
+  {
+    "objectID": "macro4-exer1-2026.html",
+    "href": "macro4-exer1-2026.html",
+    "title": "Exercise 1: Dynamic Programming",
+    "section": "",
+    "text": "二期間モデル\n次の二期間モデルを考える. この経済において, 質量1の若年期と質量1の老年期の個人が存在し, 各個人は個人の生産性 \\(z\\) に応じて, 労働時間 \\(h\\) と貯蓄 \\(a\\) を選択する. 個人の最適化問題は次のように表される.\n\\[\n\\max_{c_1, c_2, h, a} \\frac{c_1^{1-\\gamma}-1}{1-\\gamma} - \\psi \\frac{h^{1 + 1/\\eta}}{1 + 1/\\eta} + \\beta \\frac{c_2^{1-\\gamma}-1}{1-\\gamma},\n\\] subject to\n\\[\nc_1 + a = w z h, \\quad c_2 = (1 + r) a + T.\n\\] ここで, \\(c_1, c_2 &gt; 0\\) はそれぞれ若年期と老年期の消費、\\(h &gt; 0\\) は労働時間、\\(a \\in (-\\infty, \\infty)\\) は貯蓄を表す. \\(w &gt; 0\\) は賃金率、\\(r &gt; 0\\) は利子率、\\(T \\ge 0\\) は外生的な移転を表す. また, 個人の生産性 \\(z\\) は対数正規分布 \\(\\log z \\sim \\mathcal{N}(\\mu, \\sigma^2)\\) に従って, 若年期の始めに外生的に与えられているとする. また, 分布の累積密度関数を \\(F(z)\\), 密度関数を \\(f(z)\\) とする. 企業は Cobb-Douglas 型の生産関数 \\(Y = K^\\alpha L^{1-\\alpha}\\) を持ち, 資本は完全減耗 (\\(\\delta = 1\\)) する.1\n数値問題では次のパラメータの値を用いる: \\(\\gamma = 2\\), \\(\\eta = 0.5\\), \\(\\psi = 2\\), \\(\\alpha = 0.36\\), \\(T = 0.05\\). 割引因子は年率を \\(0.96\\) とし, 1期間が約30年に相当するので \\(\\beta = 0.294\\) を用いる. 生産性の分布は \\(\\mu = 0\\), \\(\\sigma = 0.4\\) とする (すなわち \\(\\log z \\sim \\mathcal{N}\\left(0, 0.4^2\\right)\\)). ただし Exercise 2.2 の (d) では \\(\\gamma\\) のみを変化させる.",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exercise 1: Dynamic Programming</span>"
+    ]
+  },
+  {
+    "objectID": "macro4-exer1-2026.html#footnotes",
+    "href": "macro4-exer1-2026.html#footnotes",
+    "title": "Exercise 1: Dynamic Programming",
+    "section": "",
+    "text": "このモデルの1期間は約30年に相当するので, 完全減耗が自然な近似になります. 利子率 \\(r\\) も「30年あたり」の値であり, 年率に直すには \\(\\left(1 + r\\right)^{1/30} - 1\\) とする.↩︎",
+    "crumbs": [
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exercise 1: Dynamic Programming</span>"
+    ]
+  }
+]
