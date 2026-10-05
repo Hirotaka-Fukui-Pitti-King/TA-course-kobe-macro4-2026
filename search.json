@@ -2,41 +2,501 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Macroeconomics IV 2026: TA Session",
+    "title": "Macroeconomics IV 2026",
     "section": "",
-    "text": "Macroeconomics IV 2026",
+    "text": "TA Session 資料\nTA Sessionの解説資料です。",
     "crumbs": [
-      "Macroeconomics IV 2026"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>TA Session 資料</span>"
     ]
   },
   {
-    "objectID": "index.html#ta-session",
-    "href": "index.html#ta-session",
-    "title": "Macroeconomics IV 2026: TA Session",
-    "section": "TA Session",
-    "text": "TA Session\n講義課題の解説資料です。\n\n\n\nExercise\nTopic\n\n\n\n\nExercise 1\nDynamic Programming",
+    "objectID": "index.html#ta-sessionの日程",
+    "href": "index.html#ta-sessionの日程",
+    "title": "Macroeconomics IV 2026",
+    "section": "TA Sessionの日程",
+    "text": "TA Sessionの日程\n対面＋オンラインの形式で行います。\n\n\n\n\n\n\n\n\n\n回\n日時\n教室\n内容\n\n\n\n\n第1回\n2026年10月7日（水）4限（15:10～17:10）\n本館217\n課題提出に必要なJuliaおよびQuartoの基礎的な知識について説明します。\n\n\n第2回\n2026年10月14日（水）4限（15:10～17:10）\n本館217\n課題提出に必要なJuliaおよびQuartoの基礎的な知識について説明します。\n\n\n第3回\n2026年10月21日（水）4限（15:10～17:10）\n本館217\n課題提出に必要なGitHubの使い方について説明します。\n\n\n第4回\n2026年11月4日（水）2限（10:40～12:10）\n未定\n第1回課題解説\n\n\n第5回\n2026年12月9日（水）4限（15:10～17:10）\n未定\n第2回課題解説\n\n\n第6回\n2027年1月6日（水）4限（15:10～16:40）\n未定\n第3回課題解説\n\n\n第7回\n2027年1月20日（水）4限（15:10～16:40）\n未定\n第4回課題解説",
     "crumbs": [
-      "Macroeconomics IV 2026"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>TA Session 資料</span>"
     ]
   },
   {
-    "objectID": "macro4-exer1-2026.html",
-    "href": "macro4-exer1-2026.html",
-    "title": "Exercise 1: Dynamic Programming",
-    "section": "",
-    "text": "二期間モデル\n次の二期間モデルを考える. この経済において, 質量1の若年期と質量1の老年期の個人が存在し, 各個人は個人の生産性 \\(z\\) に応じて, 労働時間 \\(h\\) と貯蓄 \\(a\\) を選択する. 個人の最適化問題は次のように表される.\n\\[\n\\max_{c_1, c_2, h, a} \\frac{c_1^{1-\\gamma}-1}{1-\\gamma} - \\psi \\frac{h^{1 + 1/\\eta}}{1 + 1/\\eta} + \\beta \\frac{c_2^{1-\\gamma}-1}{1-\\gamma},\n\\] subject to\n\\[\nc_1 + a = w z h, \\quad c_2 = (1 + r) a + T.\n\\] ここで, \\(c_1, c_2 &gt; 0\\) はそれぞれ若年期と老年期の消費、\\(h &gt; 0\\) は労働時間、\\(a \\in (-\\infty, \\infty)\\) は貯蓄を表す. \\(w &gt; 0\\) は賃金率、\\(r &gt; 0\\) は利子率、\\(T \\ge 0\\) は外生的な移転を表す. また, 個人の生産性 \\(z\\) は対数正規分布 \\(\\log z \\sim \\mathcal{N}(\\mu, \\sigma^2)\\) に従って, 若年期の始めに外生的に与えられているとする. また, 分布の累積密度関数を \\(F(z)\\), 密度関数を \\(f(z)\\) とする. 企業は Cobb-Douglas 型の生産関数 \\(Y = K^\\alpha L^{1-\\alpha}\\) を持ち, 資本は完全減耗 (\\(\\delta = 1\\)) する.1\n数値問題では次のパラメータの値を用いる: \\(\\gamma = 2\\), \\(\\eta = 0.5\\), \\(\\psi = 2\\), \\(\\alpha = 0.36\\), \\(T = 0.05\\). 割引因子は年率を \\(0.96\\) とし, 1期間が約30年に相当するので \\(\\beta = 0.294\\) を用いる. 生産性の分布は \\(\\mu = 0\\), \\(\\sigma = 0.4\\) とする (すなわち \\(\\log z \\sim \\mathcal{N}\\left(0, 0.4^2\\right)\\)). ただし Exercise 2.2 の (d) では \\(\\gamma\\) のみを変化させる.",
+    "objectID": "index.html#オンラインの接続情報",
+    "href": "index.html#オンラインの接続情報",
+    "title": "Macroeconomics IV 2026",
+    "section": "オンラインの接続情報",
+    "text": "オンラインの接続情報\nGoogle Meetを使用します。以下のリンクを使って入室してください。\nTAセッションのオンラインリンク",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exercise 1: Dynamic Programming</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>TA Session 資料</span>"
     ]
   },
   {
-    "objectID": "macro4-exer1-2026.html#footnotes",
-    "href": "macro4-exer1-2026.html#footnotes",
-    "title": "Exercise 1: Dynamic Programming",
-    "section": "",
-    "text": "このモデルの1期間は約30年に相当するので, 完全減耗が自然な近似になります. 利子率 \\(r\\) も「30年あたり」の値であり, 年率に直すには \\(\\left(1 + r\\right)^{1/30} - 1\\) とする.↩︎",
+    "objectID": "index.html#notes",
+    "href": "index.html#notes",
+    "title": "Macroeconomics IV 2026",
+    "section": "Notes",
+    "text": "Notes\nNote on Solution of Bargaining Problem",
     "crumbs": [
-      "<span class='chapter-number'>1</span>  <span class='chapter-title'>Exercise 1: Dynamic Programming</span>"
+      "<span class='chapter-number'>1</span>  <span class='chapter-title'>TA Session 資料</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Setup.html",
+    "href": "Macro4-TA-Setup.html",
+    "title": "Quarto, Julia, VSCodeのセットアップ方法",
+    "section": "",
+    "text": "Quarto、Julia、VScodeの準備",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Setup.html#quartojuliavscodeの準備-1",
+    "href": "Macro4-TA-Setup.html#quartojuliavscodeの準備-1",
+    "title": "Quarto, Julia, VSCodeのセットアップ方法",
+    "section": "Quarto、Julia、VScodeの準備",
+    "text": "Quarto、Julia、VScodeの準備\nQuarto、Julia、VScodeをPC上で使うための準備をしていきます。\n\nWindowsとMacを例に解説していきます。\n\n流れとしては\n\nJulia のインストールと基本設定\n\nQuarto 環境の構築\n\nVSCode での統合開発環境（IDE）の設定\n\nJulia + Quarto + VSCode の連携確認\n\nという感じです。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Setup.html#julia",
+    "href": "Macro4-TA-Setup.html#julia",
+    "title": "Quarto, Julia, VSCodeのセットアップ方法",
+    "section": "Julia",
+    "text": "Julia\nダウンロードととインストール\njuliaupという Julia の公式インストーラ兼バージョンマネージャから入手するのが簡単です。\n\nMicrosoft Storeの Julia アプリページ にアクセス\n\n「入手」ボタンを押すだけで juliaup がインストールされます\n\nPowerShell を開き、次で確認：\n\njuliaup status\n「default: release」と表示されればOKです。\nPowerShell から直接インストールすることもできます。\nwinget install julia -s msstore\nとPowerShellで入力してください。\n別の方法として公式サイトから直接入手することもできます。\n推奨はStable Release版 (2025年10月6日現在では Julia 1.11.7)\n\nWindows (64-bit もしくは32-bitのInstaller) を選択します。\nインストーラを起動し、「Add Julia to PATH」にチェック\n\npowershellで\njulia\nと入力し実行するとJulia REPL（対話環境）が開きます。そして\njulia&gt; versioninfo()\nを入力し、バージョン情報が表示されればJuliaのインストール成功です。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Setup.html#quarto",
+    "href": "Macro4-TA-Setup.html#quarto",
+    "title": "Quarto, Julia, VSCodeのセットアップ方法",
+    "section": "Quarto",
+    "text": "Quarto\nダウンロードとインストール\n公式サイトからダウンロードします。\n\nQuartoの公式サイトからWindowsを選択してダウンロードします。\n\nうまくインストールできていれば、PowerShellで\nquarto check\nを実行すると\n[✓] Checking Quarto installation......OK\n[✓] Checking Julia engine............OK\nのような結果が返ってくるはずです。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Setup.html#vscode",
+    "href": "Macro4-TA-Setup.html#vscode",
+    "title": "Quarto, Julia, VSCodeのセットアップ方法",
+    "section": "VScode",
+    "text": "VScode\nQuarto+Juliaを動かす環境はいろいろありますが、今回はVScodeを使います。\nほかのものが使いたい場合はQuartoの公式サイトを参照してください。\nダウンロードととインストール\n\nVisual Studio Code公式サイトよりWindows版を選択してダウンロード。\n\n拡張機能(Extensions)の導入\nおすすめ拡張機能\n\n“Julia”: Julia 実行の補助\n“Quarto”: Quarto (.qmd) の補助\n“Markdown All in One”: Markdownの書式補助\n\nインストール方法: Ctrl+Shift+X → 検索バーで拡張機能名を入力 → Install",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Setup.html#juliaの動作確認",
+    "href": "Macro4-TA-Setup.html#juliaの動作確認",
+    "title": "Quarto, Julia, VSCodeのセットアップ方法",
+    "section": "Juliaの動作確認",
+    "text": "Juliaの動作確認\n実行ファイル作成\n\nVSCode 左上の「新しいファイル」アイコンをクリック\n\n右下で「言語モードを選択」→ Julia (Quarto)を選ぶ\n\n名前をつけて保存（例：hello.jl）\n\nhello.jl を作成して以下を記述：\n\n\nHello, Julia  from VSCode!\n\n\n実行: 右上のRun ボタンで実行、Alt + Enter（選択部分を実行）または Ctrl + F5（全体実行）\nHello, Julia from VSCode!\nと表示されれば成功。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Setup.html#quartoの動作確認",
+    "href": "Macro4-TA-Setup.html#quartoの動作確認",
+    "title": "Quarto, Julia, VSCodeのセットアップ方法",
+    "section": "Quartoの動作確認",
+    "text": "Quartoの動作確認\nせっかくなので\nマクロIVでのテンプレート\nを使って動作確認してみましょう。\nリンク先からqmdファイルをダウンロードして自分のフォルダに置きます。\nプレビュー Ctrl + Shift + Kまたは右上のpreviewボタンをクリック。\nレンダー quarto render 00-answer.qmd\npdfが生成されるはずです。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Setup.html#参考にしたサイト",
+    "href": "Macro4-TA-Setup.html#参考にしたサイト",
+    "title": "Quarto, Julia, VSCodeのセットアップ方法",
+    "section": "参考にしたサイト",
+    "text": "参考にしたサイト\n\nJulia言語のインストールとjuliaupのメモ\nJulia の（による）新常識\nQuarto でレポート執筆（M1 Mac + VSCode）\nQuarto公式サイト\nM1 Macにhomebrewをインストールする（3.0.0版）",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Setup.html#homebrewのインストール",
+    "href": "Macro4-TA-Setup.html#homebrewのインストール",
+    "title": "Quarto, Julia, VSCodeのセットアップ方法",
+    "section": "Homebrewのインストール",
+    "text": "Homebrewのインストール\n$ /bin/bash -c \"$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)\"\n\n# パスを通します\n$ echo 'eval $(/opt/homebrew/bin/brew shellenv)' &gt;&gt; ~/.zshrc\nインストール後、which brewで確認すると/opt/homebrew/bin/brewがインストール先として表示されるようです。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Setup.html#julia-1",
+    "href": "Macro4-TA-Setup.html#julia-1",
+    "title": "Quarto, Julia, VSCodeのセットアップ方法",
+    "section": "Julia",
+    "text": "Julia\njuliaupのインストール\nHomebrewを使ってターミナルからインストール:\nbrew install juliaup\n動作確認：\njuliaup status\nJuliaを起動して確認：\njulia\njulia version 1.12.x のような表示が出れば成功です。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Setup.html#quarto-1",
+    "href": "Macro4-TA-Setup.html#quarto-1",
+    "title": "Quarto, Julia, VSCodeのセットアップ方法",
+    "section": "Quarto",
+    "text": "Quarto\nインストール\nターミナルで\nbrew install quarto\nと打ち込むかもしくは公式サイトからインストーラをダウンロードしてもOKです。\nインストール後に\nquarto check\nと打って\n[✓] Checking Quarto installation......OK\n[✓] Checking Julia engine............OK\nのような結果が返ってくれば大丈夫です。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Setup.html#vscode-1",
+    "href": "Macro4-TA-Setup.html#vscode-1",
+    "title": "Quarto, Julia, VSCodeのセットアップ方法",
+    "section": "VScode",
+    "text": "VScode\n\nVScodeの公式サイトに行き、リンゴのマークのものを選びます。\nダウンロードフォルダからVSCodeのファイルを選び、クリックします。\nアイコンが作られるのでそれをドラッグ&ドロップでサイドメニューのアプリケーションに移動させます。\nサイドメニューのアプリケーションから開きます。\n\n拡張機能(Extensions)の導入\nおすすめ拡張機能\n\n“Julia”: Julia 実行の補助\n“Quarto”: Quarto (.qmd) の補助\n“Markdown All in One”: Markdownの書式補助\n\nインストール方法: ⌘ + Shift + X → 検索バーで拡張機能名を入力 → Install\nそのあとの動作確認などはWindows版と同じです。",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>Setup</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html",
+    "href": "Macro4-TA-Session-1.html",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "",
+    "text": "はじめに",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#taセッション12の目的",
+    "href": "Macro4-TA-Session-1.html#taセッション12の目的",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "TAセッション1&2の目的",
+    "text": "TAセッション1&2の目的\n第1回と第2回のTAセッションではJuliaとQuartoを用いて レポート課題を完成させるために必要なスキルと知識を身につけることを目的とします。\n主な目標\n\n.qmd（Quarto Markdown）ファイルの構造とワークフローを理解すること。\n.qmdファイルを執筆し、整ったPDFレポートとして出力・提出できるようにすること。\nJuliaの基本的な文法、データ処理、可視化に慣れ、再現可能なドキュメント内で活用できるようにすること。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#セッション内容",
+    "href": "Macro4-TA-Session-1.html#セッション内容",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "セッション内容",
+    "text": "セッション内容\nTAセッション1\n\n計算プロセスの理解：ソースコードから実行、メモリ管理、出力生成までの流れを学ぶ。\nQuartoの導入：ドキュメント構造、YAMLヘッダー、レンダリング設定の基礎を理解する。\nJuliaコードチャンクの記述方法と、結果（図・表・計算結果）の埋め込み方を学ぶ。\n\nTAセッション2\n\nプロジェクト構成とファイルパスの管理方法を学ぶ。\nJuliaの基本プログラミング：配列、データフレーム、グラフ描画の操作。\n.qmdファイルをPDFにレンダリングし、コンパイルエラーを解決する方法を習得する。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#事前準備",
+    "href": "Macro4-TA-Session-1.html#事前準備",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "事前準備",
+    "text": "事前準備\nTAセッションに参加する前に、以下のソフトウェアを各自のPCにインストールしておいてください。\n\nVisual Studio Code (VS Code)：コード編集およびQuartoドキュメント作成用エディタ\nQuarto：レポートをPDFやHTMLにレンダリングするためのドキュメントツール\nJulia：プログラミング言語（数値計算・データ分析・可視化に使用）",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#課題解説セッションの方針",
+    "href": "Macro4-TA-Session-1.html#課題解説セッションの方針",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "課題解説セッションの方針",
+    "text": "課題解説セッションの方針\nみなさんに「数値計算」によるマクロ経済分析を理解してもらえるように問題の解答だけでなく\n\n理論モデルの理解\n数値解法の理解\nプログラミングの理解\n\nを最終的なゴールとしていこうと思っています。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#プログラミングとは何か",
+    "href": "Macro4-TA-Session-1.html#プログラミングとは何か",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "プログラミングとは何か",
+    "text": "プログラミングとは何か\nプログラミングは簡単に言うと\n\nコンピュータに実行させる処理の順番を示すプログラムを「人間が理解できる言葉」で書く\n\nことです。つまり「こういうことをしてください」とコンピュータに命令する命令書を書くことです。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#プログラミングとは何か-1",
+    "href": "Macro4-TA-Session-1.html#プログラミングとは何か-1",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "プログラミングとは何か",
+    "text": "プログラミングとは何か\nマクロIVでのテンプレート\nの{julia}と書かれているところのコードを見るとplotやforなど、英語で書かれている部分があることがわかります。\nこれが人間が読める言葉で書かれているPCへの命令書です。\n\n\n\n\n\n\n\nFigure 5.1: Value function for different values of \\(z\\).\n\n\n\n\n実行するとプロットが出てきます。このプロットを作成するために\nfor ....\n\nend\n\nplot...\nという命令書を人間が書きます。\nそれを実行することでコンピュータ側はそれを自分たちが理解できる0と1の羅列に落とし込んでいき、内部で演算処理をして最終的に画面にプロットを表示してくれているわけです。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#juliaquartovscodeの役割",
+    "href": "Macro4-TA-Session-1.html#juliaquartovscodeの役割",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "Julia、Quarto、VSCodeの役割",
+    "text": "Julia、Quarto、VSCodeの役割\n\nJuliaというプログラミング言語を使ってその命令書を書いていきます。\nQuartoにそのコードを埋め込むことできれいなレポートを作ることができます。\nVSCodeはその2つを動かす土台です。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#プログラミングのコツ",
+    "href": "Macro4-TA-Session-1.html#プログラミングのコツ",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "プログラミングのコツ",
+    "text": "プログラミングのコツ\n\n何をするのかのワークフローを一旦書いてみる。\n\nマクロIVでのテンプレートの例だと\n\nパラメータや最小・最大値、結果の格納庫を作る。\n効用関数を定義する。\n反復命令のコードを作る。価値関数の初期値を定義し、グリッドの数だけfor文を使って価値関数を反復計算させる。\nTechnology shock \\(z\\) で総和をとることで期待値を計算する。\n\n…\n最初に何をするのかをあらかじめ書いておくことをお勧めします。自分の頭で手順がはっきりしていないものをプログラミングするのは難しいです。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#pcの頭の良さを過大評価しない",
+    "href": "Macro4-TA-Session-1.html#pcの頭の良さを過大評価しない",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "PCの「頭の良さ」を過大評価しない。",
+    "text": "PCの「頭の良さ」を過大評価しない。\n\nPCは正直言うと電卓のでかい版なので、そんなに大したことはできません(でも工夫することで難しい計算をしてくれます)。\nきちんと命令書を書いてあげないとうまく動いてくれません。\nうまく動かないときは命令書がPCにとってわかりにくいことが問題です。\nJuliaならJuliaの、QuartoならQuartoの「書き方のルール」があります。それをしっかりと守りましょう。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#quartoとは",
+    "href": "Macro4-TA-Session-1.html#quartoとは",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "Quartoとは?",
+    "text": "Quartoとは?\n\nQuartoはコードとその結果、そして文章を一つの文書としてまとめてくれるものです\nJulia, R, Pythonなどのコードを書いて実行することができます",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#quartoの構造",
+    "href": "Macro4-TA-Session-1.html#quartoの構造",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "Quartoの構造",
+    "text": "Quartoの構造\nQuartoで作成された文書.qmdのソースコードは大きく次の3つの領域に分けられます\n\nYAMLヘッダー\nコードチャンク\nテキスト",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#quartoの構造-yamlヘッダー",
+    "href": "Macro4-TA-Session-1.html#quartoの構造-yamlヘッダー",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "Quartoの構造: YAMLヘッダー",
+    "text": "Quartoの構造: YAMLヘッダー\nYAMLヘッダーは\n\n文書のタイトル、著者、作成日などのメタ情報\n文書全体のフォーマットやスタイルを指定する情報\n\nを文書の最初に指定するものです。YAMLヘッダーは ---と---の間に書く必要があります。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#quartoの構造-yamlヘッダー-1",
+    "href": "Macro4-TA-Session-1.html#quartoの構造-yamlヘッダー-1",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "Quartoの構造: YAMLヘッダー",
+    "text": "Quartoの構造: YAMLヘッダー\n課題レポートの例\n---\ntitle: \"Exercise 0: Life Cycle Model\"\ndate: today\ndate-format: \"YYYY年M月D日\"\nauthor: YOUR NAME\nexecute: \n  echo: false\n  warning: false\n  message: false\nformat: typst\nengine: julia #knitr for R, jupyter for Python\nbrand:\n  typography:      \n    fonts:\n      - family: Noto Serif JP\n        source: google\n      - family: IBM Plex Sans JP\n        source: google\n    base: Noto Serif JP\n    headings:\n      family: IBM Plex Sans JP\n      weight: regular\nnumber-sections: true\n---\nYAMLヘッダーの以下の部分でタイトル、日付、著者の情報を記述しています。\ntitle: \"Exercise 0: Life Cycle Model\"\ndate: today\ndate-format: \"YYYY年M月D日\"\nauthor: YOUR NAME\nexecute: \n  echo: false\n  warning: false\n  message: false\nformat: typst\nengine: julia #knitr for R, jupyter for Python\nこの部分でコードチャンクの設定や出力(typst)の設定をしています。\nbrand:\n  typography:      \n    fonts:\n      - family: Noto Serif JP\n        source: google\n      - family: IBM Plex Sans JP\n        source: google\n    base: Noto Serif JP\n    headings:\n      family: IBM Plex Sans JP\n      weight: regular\nnumber-sections: true\nこの部分で文書全体のフォーマット設定をしています。\n\n\n\n\n\n\nImportant\n\n\n\n課題レポートではレポートの解答テンプレートの YAMLヘッダーをコピペすることを推奨します。 変更する部分は\ntitle: \"Exercise 0: Life Cycle Model\"\n\nauthor: YOUR NAME\nこの2つだけにしておくことを推奨します。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#quartoの構造-コードチャンク",
+    "href": "Macro4-TA-Session-1.html#quartoの構造-コードチャンク",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "Quartoの構造: コードチャンク",
+    "text": "Quartoの構造: コードチャンク\nコードチャンクはJuliaやほかの言語のコードが入る領域で、コンパイルするとコードとその実行結果が表示されます。\n``` (バックスラッシュ3つ)のあとに中括弧{}をいれ、中括弧の中に使いたい言語の名前を書きます。コードの終わりは再びバックスラッシュ3つを入れます。\nJuliaの場合は ```{julia}と```の間にコードを書きます。\n\n例\n\n\nCode\nplot(sin, \n     x-&gt;sin(2x), \n     0, \n     2π, \n     leg=false, \n     fill=(0,:lavender))\n\n\n\n\n\nコードチャンクの先頭にオプションをつけることができます。主なものに\n#| echo: false\n#| message: false\n#| warning: false\n#| include: false\nがあります。それぞれの意味は以下の通りです。\necho: false: コードを本文に表示しない（実行はする）。\nmessage: false: パッケージ読み込み時など、実行時の “message” を本文に表示させない。\nwarning: false: エラーなどの警告（warnings）を本文に表示させない。\ninclude: false: チャンクそのものを「文書に含めない」。パッケージ読み込みなど、裏方処理用につかう。\ntrueで逆になります。デフォルトはtrueです。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#quartoの構造-テキスト",
+    "href": "Macro4-TA-Session-1.html#quartoの構造-テキスト",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "Quartoの構造: テキスト",
+    "text": "Quartoの構造: テキスト\nQuartoでは文章を「Markdown」という形式にのっとって書いていきます。レポートを作るだけなら平文の書き方、見出しのつけ方、数式の書き方がわかっていれば十分です。\n\n平文\nあのイーハトーヴォのすきとおった風、夏でも底に冷たさをもつ青いそら、うつくしい森で飾られたモリーオ市、郊外のぎらぎらひかる草の波。\n\n\n見出し\n#を使って全部で6段階の見出しをつけることができます。#のあとにはスペースを入れてつけたい見出しを書きます。#はかなりでかいのでレポートの見出しは##くらいがいいと思います。\n# １番大きい\n\n## 2番目に大きい\n\n### 3番目に...\n\n#### 4番目に...\n\n##### 5番目に...\n\n###### 1番小さい\n\n\n数式を入力する\n数式を入力するときは$を使います。数式の書き方は基本的にTeXと同じです。\n行内数式（inline math）\n文の途中に数式を入れるときは $...$ で囲みます。\n生産関数は $Y = A K^\\alpha L^{1-\\alpha}$ で表される。\n生産関数は \\(Y = A K^\\alpha L^{1-\\alpha}\\) で表される。\n別行数式（display math）\n数式を独立させたいときは $$...$$ で囲みます。TeXでいう¥begin{equation}...¥end{equation}です。\n$$\ny = \\alpha + \\beta x + \\varepsilon\n$$\n\\[\ny = \\alpha + \\beta x + \\varepsilon\n\\]\n複数行・整列（align環境など）\nTeX の align もそのまま使えます。\n$$\n\\begin{align}\nr_t & = \\alpha \\frac{Y_t}{K_t}, \\\\\nw_t & = (1-\\alpha)\\frac{Y_t}{L_t}\n\\end{align}\n$$\n\\[\n\\begin{align}\nr_t & = \\alpha \\frac{Y_t}{K_t}, \\\\\nw_t & = (1-\\alpha)\\frac{Y_t}{L_t}\n\\end{align}\n\\]\n基本的にはTeXの数式記号が使えるのでTeXの資料を参照するといいと思います。\n\nギリシャ文字一覧とLaTeXでの出力方法\n等号・不等号・近似記号に関するコマンド107個一覧\n四則演算(掛け算・割り算など)のコマンド16個一覧\n大型演算子20個まとめ\n定義済み関数(max,lim,exp,log,sin等)38個一覧",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#juliaとは",
+    "href": "Macro4-TA-Session-1.html#juliaとは",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "Juliaとは",
+    "text": "Juliaとは\n\n高速 × わかりやすい を目指して開発された次世代科学計算プログラミング言語\nPython/R の書きやすさと C/Fortran 並みの性能 を両立\n\nJuliaを作った人たちによる「Juliaを作った理由」\n“Why We Created Julia” by Jeff Bezanson, Stefan Karpinski, Viral B. Shah, and Alan Edelman",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#juliaの基礎",
+    "href": "Macro4-TA-Session-1.html#juliaの基礎",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "Juliaの基礎",
+    "text": "Juliaの基礎\nTAセッション第1回ではJuliaの基礎知識として\n\n変数とデータ型\n\nを扱います。その他の内容は第2回でやります。\n\n変数とデータ型\nJulia では数値や文字列などに型がつきます。 変数に値を代入すると、自動的に型が決まります。\n\nx = 3.14     # Float64\ny = 10       # Int64\ns = \"hello\"  # String\n\n\"hello\"\n\n\n\n\n型とは何か\n型（type）とは「値の種類を表すラベル」です。Julia では、すべての値には「型」(type) があります。\nこれは「その値がどう扱われるべきか」を Julia が理解するための情報となります。\n私たちが3などの数字やHelloと打った時、内部でPCは\n0000 0001 0010 0110\nのような数字の羅列を見ています。\n0000 0001 0010 0110\nが「文字」なのか「数字なのか」などによってPCは扱い方を変える必要があります。そのための情報を与えるのが「型」というわけです。\n\n\n型の確認\n\nprintln(typeof(x))   # =&gt; Float64\nprintln(typeof(y))   # =&gt; Int64\nprintln(typeof(s))   # =&gt; String\n\nFloat64\nInt64\nString\n\n\n\n\n再代入で型が変わる\n\nx = 42      # Int64 になる\nprintln(typeof(x))\n\nInt64\n\n\n\n\n基本的な型の例\n\nA = 3.14      # Float64（浮動小数点数）\nB = 10        # Int64（整数）\nC = true      # Bool（真偽値）\nD = 3 + 4im   # Complex{Int64}（複素数）\nE = \"hello\"   # String（文字列）\nF = 'x'       # Char（一文字）\n\nprintln(\"A = $A, typeof(A) = $(typeof(A))\")\nprintln(\"B = $B, typeof(B) = $(typeof(B))\")\nprintln(\"C = $C, typeof(C) = $(typeof(C))\")\nprintln(\"D = $D, typeof(D) = $(typeof(D))\")\nprintln(\"E = $E, typeof(E) = $(typeof(E))\")\nprintln(\"F = $F, typeof(F) = $(typeof(F))\")\n\nA = 3.14, typeof(A) = Float64\nB = 10, typeof(B) = Int64\nC = true, typeof(C) = Bool\nD = 3 + 4im, typeof(D) = Complex{Int64}\nE = hello, typeof(E) = String\nF = x, typeof(F) = Char\n\n\nStringとCharの違いに注意。ダブルクォート(““)とシングルクォート(’’)で型が変わります。\n\n\n型宣言\nJuliaでは変数は基本的に自動的に型が判断されますが、必要に応じて型を明示できます。\n::型名を変数名の後ろにつけることで変数の型を指定することができます。\n\nax::Int = 10\nbx::Float64 = 3.14\nprintln(\"ax = $ax, typeof(ax) = $(typeof(ax))\")\nprintln(\"bx = $bx, typeof(bx) = $(typeof(bx))\")\n\nax = 10, typeof(ax) = Int64\nbx = 3.14, typeof(bx) = Float64\n\n\n\n\nUnicode文字の利用\nJuliaでは様々な文字を使うことができます。\n\nα = 0.05 #ギリシャ文字を使える\nβ = 1.2\nf̂(x) = x^2 + 1 # ハットなどのアクセントを付けることもできる\n∑(xs) = sum(xs) # 関数名もUnicode可\n\n∑ (generic function with 1 method)\n\n\n\n3 ≤ 5 # true\n[1,2] ⊆ 1:3 # true\n\ntrue\n\n\n≤ ≥ ≠ ∈ ⊆ ∪ ∩ ∘ ⋅などが利用可能です。\nUnicode文字の入力方法は\\ + 入力したい文字列 + &lt;tab&gt;です。\n例えばαは\\alphaと入力します。VSCodeを使う場合はJuliaの拡張機能を入れておく必要があります。\n使える文字や入力方法についてはJuliaのマニュアルに書かれています。\n\n\n算術演算\n四則演算などは以下のように書きます。\n\n2 + 3         # 足し算\n8 - 5         # 引き算\n4 * 2         # 掛け算\n2^3           # べき乗\nsqrt(9)       # 平方根\n40 / 5        # 浮動小数点除算\n40 ÷ 5        # 整数除算\n12 % 5        # 剰余\n\n2\n\n\n\n\\での割り算は常に Float になります\n一方で ÷での割り算はIntになります。\n\n\n\n比較・論理演算\n比較演算は以下のように書きます。\n\n# 比較演算子\n3 == 3      # true\n3 != 2      # true\n3 &lt;  5      # true\n5 ≤ 5       # true  (&lt;= と同じ。)\n5 &gt;= 3      # true\n\ntrue\n\n\n\n比較演算子の結果はtrue または false のどちらかになります。\n\n比較演算は以下のように書きます。\n\n&: 論理積 (AND)\n|: 論理和 (OR)\n!: 否定 (NOT)\n&&: 論理積を使った短絡評価\n||: 論理積を使った短絡評価\n\n\n# 論理演算（短絡評価）\ntrue | false    # 両方 true のときだけ true（AND）\ntrue & false    # どちらかが true なら true（OR）\n!false          # true を返す（!はNOTの意味）\nx &gt; 0 && x &lt; 10   # 左が true なら右を評価 (0 &lt; x &lt; 10 と同じ)\nx &lt; 0 || x &gt; 10   # 左が false なら右を評価\n\ntrue",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#第2回taセッションの内容",
+    "href": "Macro4-TA-Session-1.html#第2回taセッションの内容",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "第2回TAセッションの内容",
+    "text": "第2回TAセッションの内容\n第2回TAセッションでは\n\nJulia応用編\nQuarto+Juliaでレポートを実際に書いてみる\n\nことをやります。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#参考文献",
+    "href": "Macro4-TA-Session-1.html#参考文献",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "参考文献",
+    "text": "参考文献\nマクロ経済学における数値計算\n\nKenneth L. Judd (1998)“Numerical Methods in Economics,” MIT Press 言わずと知れた経済学における数値計算に関する名著。出版は古いですが内容は今でも十分役に立つものです。数値計算をやる人は一度読んでおくと便利です。\nJeremy Greenwood and Ricardo Marto (2025) “Numerical Methods for Macreconomists” Juddの本のマクロ経済学寄り & 現代版みたいな感じ。\nBurkhard Heer and Alfred Maußner (2024) “Dynamic General Equilibrium Modeling,” Springer マクロモデルの数値計算についていろいろな例が書いてある辞書みたいな本。困ったらこれを見ればたいていなにか載ってます。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#参考文献-1",
+    "href": "Macro4-TA-Session-1.html#参考文献-1",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "参考文献",
+    "text": "参考文献\n定量的マクロ経済学\n\nLars Ljungqvist and Thomas J. Sargent (2018) Recursive Macroeconomic Theory fourth edition, MIT Press 数値計算を意識して書かれたマクロ経済学の最上級クラス本。定量マクロをやりたいなら読むことをお勧めします。一人で読むときついから友達と輪読するといいです。\n加藤涼 『現代マクロ経済学講義』、2007年、東洋経済新報社。 この講義でやる内容を日本語で勉強できる稀有な本。使われている言語はMatlabですが、コードをJuliaに読み替えるという作業をすると楽しいです。\n北尾早霧・砂川武貴・山田知明『定量マクロ経済学と数値計算』、2024年、日本評論社。 日本語で書かれたマクロ経済学に関する数値計算の本。異質経済主体モデルまで書いてあります。加藤本と合わせて一冊持っておくと便利。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#参考文献-2",
+    "href": "Macro4-TA-Session-1.html#参考文献-2",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "参考文献",
+    "text": "参考文献\nプログラミングとコンピュータについて\n矢沢久雄『プログラムはなぜ動くのか 第３版　知っておきたいプログラミングの基礎知識』、2021年、日経BP。\n矢沢久雄『コンピュータはなぜ動くのか 第２版 知っておきたいハードウエア＆ソフトウエアの基礎知識』、2022年、日経BP。\nプログラミングやコンピュータについてわかりやすく書かれています。コンピュータの裏側を知っておくといろんな場面で便利です。",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-1.html#参考文献-3",
+    "href": "Macro4-TA-Session-1.html#参考文献-3",
+    "title": "JuliaとQuartoを使ってレポートを書く 1",
+    "section": "参考文献",
+    "text": "参考文献\nJulia、Quarto、Markdownの参考資料です。\n\nJulia\nマクロ経済学IV講義資料のAppendix\nJuliaの公式マニュアル\nJulia入門：いろいろ入門: いろんな例が書いてあるので参考になると思います。\n『定量的マクロ経済学と数値計算』のサポートページ: マクロ経済学の様々な数値計算コードが置いてあるので課題を解くときに参考になると思います。\nQuantecon:上と同じくマクロ経済学の様々な数値計算コードが置いてあるので課題を解くときに参考になると思います。\n\n\nQuarto\nQuartoの公式マニュアル\n私たちのRのch.24とch25: Quartoやqmdファイルの書き方などについて詳しく学ぶことができます。\n\n\nMarkdown\nQuarto公式サイトのMarkdownに関する説明\nMarkdown記法 チートシート",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>TAセッション第1回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-2.html",
+    "href": "Macro4-TA-Session-2.html",
+    "title": "JuliaとQuartoを使ってレポートを書く 2",
+    "section": "",
+    "text": "Julia入門",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>TAセッション第2回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-2.html#関数",
+    "href": "Macro4-TA-Session-2.html#関数",
+    "title": "JuliaとQuartoを使ってレポートを書く 2",
+    "section": "関数",
+    "text": "関数\n\n基本的な定義方法\n基本的に関数は\nfunction 関数名(引数)\n  return 戻り値\nend\nと書きます。引数は関数に対するインプットのことです。\n\n\n例: 効用関数\n\nγ = 0.5\nfunction u(c)\n    return (c^1-γ)/(1-γ)\nend\n\n\nu(2)\n\n3.0\n\n\n\n\n匿名関数（ラムダ式）\n名前を持たない関数のことを「匿名関数 (ラムダ式)」と呼びます。\n通常の関数は f(x) のように名前を付けますが、匿名関数は一時的に使うため名前を付けません。\nplot()などの関数の中で関数を定義して使いたいときなどに使います。\n\nx = [1, 2, 3, 4, 5]\n\n\nplot(x, x -&gt; x^2)\n\n\n\n\nx -&gt; x^2 は「入力 x を受け取り x^2 を返す関数」を表します。\n\n\nキーワード引数（keyword arguments）\nJulia の関数定義には、\n\n位置引数（普通の引数）\nキーワード引数（名前付きのオプション）\n\nの2つが引数として用意されています。\n\nfunction f(x; a=1, b=2)\n    return a*x + b\nend\n\n\nf(3; a=10)     # a=10, b はデフォルト 2\nf(3; b=100)    # b=100\nf(3; a=10, b=20)\n\n50\n\n\n\n; の右側にあるのがキーワード引数\n呼び出し時も;の右側に名前 = 値 の形で渡す\n\n注意: named argumentsは、定義したときのキーワードと使うときの変数の名前が一致していないと関数側が引数を受け取れません。\nf(; w=3, h=2) や f(; w, h) はエラーになります。",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>TAセッション第2回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-2.html#配列",
+    "href": "Macro4-TA-Session-2.html#配列",
+    "title": "JuliaとQuartoを使ってレポートを書く 2",
+    "section": "配列",
+    "text": "配列\n\n配列（Array）\n\nインデックスは 1から始まる（PythonやCと違う点に注意）。\n1次元配列は列ベクトル\n各要素は,で区切る。\n2次元配列の各要素は空白で区切る。\n行を追加するなら;または改行を使う。\n\n\nvec1 = [1, 2, 3]          # 1次元配列（ベクトル）\nmat1 = [ [1 2 3]; [4 5 6] ]  # 2次元配列（2行3列の行列）\nmat2 = [1.0 2.0 3.0\n        0.0 4.0 5.0\n        0.0 0.0 6.0] # 3×3行列\n\n\n\n配列の要素にアクセスする\n作った配列にアクセスするには配列の名前[]で指定します。\n\na = [1, 2, 3]        \nb = [ [1 2 3]; [4 5 6] ]\n\n\na[2]\nb[1] # 1が返ってくる\nb[1, 1] #2次元以上は[縦方向のindex, 横方向のindex]で指定\n\n1\n\n\n2次元以上の時に\n\na[1]のように書くと「Linear index」となる\nLinear indexは配列を1列に並べたときのindex。\na[1, 1]のように書くと「Cartesian index」となる\nCartesian indexは配列の次元ごとのindex。\n\n\n\n\n2×3 Array\nLinear index\nCartesian index\n\n\n\n\n1 2 3\n1 3 5\n(1,1) (1,2) (1,3)\n\n\n4 5 6\n2 4 6\n(2,1) (2,2) (2,3)\n\n\n\n\n\n配列の要素に演算を行う\n作った配列の各要素に演算を行う際は.(ドット演算子)を使います。\n\n演算子の前に . をつければ要素ごとに適用。\n例： a .* b, a .+ b, a ./ b\n関数も同様に sin.(a) のように . をつけると要素ごとに適用。\n\n\nc = [5 4 3]\nd = a.+ c # 各要素が6の行列にする\n\n\nprint(d)\nsin.(c) # cの各要素にサイン関数を適用\n\n[6 5 4; 7 6 5; 8 7 6]\n\n\n1×3 Matrix{Float64}:\n -0.958924  -0.756802  0.14112\n\n\n行列に対しても適用可能です。\n\nI = [1 2 3;\n     4 5 6]   # 2×3 行列\n\nJ = [10 20 30;\n     40 50 60]  # 2×3 行列\n\n\nI .+ J          # 要素ごとの和\nI .* J          # 要素ごとの積\nsin.(I)         # 各要素に sin を適用\n\n2×3 Matrix{Float64}:\n  0.841471   0.909297   0.14112\n -0.756802  -0.958924  -0.279415",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>TAセッション第2回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-2.html#タプル",
+    "href": "Macro4-TA-Session-2.html#タプル",
+    "title": "JuliaとQuartoを使ってレポートを書く 2",
+    "section": "タプル",
+    "text": "タプル\n\nベクトルは角括弧 [] を使用して表記し、タプルは丸括弧 () を使用して表記します。\n\n\nt = (1, 2, 3)\n\n\nタプルもインデックスを通じて要素にアクセスできます。\n\n\nt[1]\n\n1\n\n\n\nベクトルとタプルは一見似ているように見えますが、重要な違いがあります。\n\nタプルは不変(immutable)/配列は可変(mutable)\n\nタプルの要素を変更することはできません。\nベクトルは形状を変えることができますが、タプルは不可能です。",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>TAセッション第2回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-2.html#juliaの基礎-タプル",
+    "href": "Macro4-TA-Session-2.html#juliaの基礎-タプル",
+    "title": "JuliaとQuartoを使ってレポートを書く 2",
+    "section": "Juliaの基礎: タプル",
+    "text": "Juliaの基礎: タプル\nタプルには2種類あります。さっきのtは名前なしタプルです。\n\n名前無しタプル\n名前付きタプル\n\n\n# 名前付きタプル\nparams = (\n    α = 0.36,\n    β = 0.99,\n    δ = 0.025,\n    ρ_z = 0.9,\n    σ_z = 0.01\n)\n\n(α = 0.36, β = 0.99, δ = 0.025, ρ_z = 0.9, σ_z = 0.01)\n\n\n\nparams.β\n\n0.99\n\n\nt[1]でも呼べますが、名前付きタプルの特徴はt.nameのようにつけた名前で値を参照できることです。",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>TAセッション第2回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-2.html#for文",
+    "href": "Macro4-TA-Session-2.html#for文",
+    "title": "JuliaとQuartoを使ってレポートを書く 2",
+    "section": "for文",
+    "text": "for文\n\nrange\n規則的な数列を簡単に作れます。 特に for文 や 離散化 でよく使います。\n\n1:5              # 1, 2, 3, 4, 5\n0:0.5:2          # 0, 0.5, 1.0, 1.5, 2.0\nrange(0, stop=1, length=5)  # 0.0, 0.25, 0.5, 0.75, 1.0\n\n\n\nfor文\nfor文を使うことで繰り返しの計算を行うことができます。\n\n# range と組み合わせる（1:5 は 1,2,3,4,5）\nfor i in 1:5\n    println(i^2)\nend\n\n1\n4\n9\n16\n25\n\n\n\na = [10, 20, 30]\n\n\n# ベクトル（配列）をそのまま回す\nfor v in a\n    println(v + 1)\nend\n\n11\n21\n31\n\n\n配列の要素の更新を行うこともできます。\n\n# 事前にサイズを確保して代入\nT = 10\ny = zeros(T)\nfor t in 1:T\n    y[t] = exp(-0.2 * t)\nend\ny\n\n10-element Vector{Float64}:\n 0.8187307530779818\n 0.6703200460356393\n 0.5488116360940264\n 0.44932896411722156\n 0.36787944117144233\n 0.301194211912202\n 0.24659696394160643\n 0.20189651799465538\n 0.16529888822158653\n 0.1353352832366127",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>TAセッション第2回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-2.html#if文",
+    "href": "Macro4-TA-Session-2.html#if文",
+    "title": "JuliaとQuartoを使ってレポートを書く 2",
+    "section": "if文",
+    "text": "if文\nif/elseif/else/end\nの四つの要素に分かれます。\nif 条件1\n  戻り値\nelseif 条件2\n  戻り値\nelse if 条件3\n  戻り値\n...\nelse #それ以外\n  戻り値\nend #endで必ず閉じる\n\nNum = 2.5\n\n\nif Num &gt; 3\n    \"big\"\nelseif 1 ≤ Num ≤ 3\n    \"medium\"\nelse\n    \"small\"\nend\n\n\"medium\"",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>TAセッション第2回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-2.html#while文",
+    "href": "Macro4-TA-Session-2.html#while文",
+    "title": "JuliaとQuartoを使ってレポートを書く 2",
+    "section": "while文",
+    "text": "while文\nwhile文を使って「条件が満たされている間だけ」ループを続けるように計算させることができます。\n\nfunction solve_cos_fixedpoint()\n    x    = 1.0\n    tol  = 1e-6\n    diff = 1.0\n\n    while diff &gt; tol\n        x_new = cos(x)\n        diff  = abs(x_new - x)\n        x     = x_new\n    end\n    return x\nend\n\nfixpoint = solve_cos_fixedpoint()\n\n\nprintln(\"収束解 = $fixpoint\")\n\n収束解 = 0.7390855263619245\n\n\niterationなど、ある判定基準のところで計算を打ち切る場合に有用です。",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>TAセッション第2回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-2.html#ネスト入れ子と内包表記",
+    "href": "Macro4-TA-Session-2.html#ネスト入れ子と内包表記",
+    "title": "JuliaとQuartoを使ってレポートを書く 2",
+    "section": "ネスト（入れ子）と内包表記",
+    "text": "ネスト（入れ子）と内包表記\nfor文と同じことを内包表記を使うと1行で書くことができます。\n\n# for文と同じことを内包表記で\npairs = [(i,j) for i in 1:3 for j in 1:2]\n\n\nprintln(pairs)\n\n[(1, 1), (1, 2), (2, 1), (2, 2), (3, 1), (3, 2)]\n\n\n内包表記の基本構文は [変数 for 変数 in 繰り返すインデックスの範囲] です。\n繰り返すインデックスの範囲は、if文で条件をつけることができます。\n\n# iが奇数、jが偶数のペアが返ってくるように条件を指定する\npairs2 = [(i,j) for i in 1:3 if i % 2 != 0 for j in 1:3 if j % 2 == 0]\n\n\nprintln(pairs2)\n\n[(1, 2), (3, 2)]",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>TAセッション第2回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-2.html#パッケージの使い方",
+    "href": "Macro4-TA-Session-2.html#パッケージの使い方",
+    "title": "JuliaとQuartoを使ってレポートを書く 2",
+    "section": "パッケージの使い方",
+    "text": "パッケージの使い方\n\nパッケージのインストール\n標準機能だけでは足りないときには外部ライブラリを利用することになります。\n流れ:\n\nPkg.add(\"PackageName\") でインストール\nusing PackageName で読み込み\n実際に関数を使う\n\n\nusing Pkg\nPkg.add(\"Plots\")\nusing Plots\n\n\nplot([1,2,3], [4,5,6])\n\n\n\n\nターミナルでusing Pkg; Pkg.add(\"PackageName\")を実行してパッケージをインストールすることもできます。\nusing パッケージの名前\nPkg.add(\"パッケージの名前\")\nはいったんやればその後は\nusing パッケージの名前\nだけでパッケージを使うことが可能です。\n\n\nCSVからデータを読みこんでDataFrameで操作する\nJuliaでは CSV.jl と DataFrames.jl を組み合わせて使うことでデータを操作します。\n\nusing Pkg\nPkg.add(\"CSV\")\nPkg.add(\"DataFrames\")\nusing CSV, DataFrames\n\n詳しくはDataFrames.jlの公式サイトやJuliaで遊んでみた - データフレーム操作編を参照。\n\n\nCSVからデータを読みこむ\nデータの読み込み\ndf = CSV.read(\"dataname.csv\", DataFrame)\n\ndf = CSV.read(\"sample_dataset.csv\", DataFrame)\n\n\nfirst(df, 5)   # 先頭5行を表示\n\n5×6 DataFrameRowIDNameAgeDepartmentSalaryYearsExperienceInt64DataStri…Int64DataStri…Int64Int6411Alice23Sales40000122Bob35HR50000733Charlie45IT600001544David29Finance55000555Eve31Sales450006\n\n\n\n\nDataFrameの基本操作\n行・列参照\n\ndf.Name                  # Name列をSeriesとして取り出す\n\n20-element DataStrings.StringVector{DataStrings.DataString}:\n \"Alice\"\n \"Bob\"\n \"Charlie\"\n \"David\"\n \"Eve\"\n \"Frank\"\n \"Grace\"\n \"Hank\"\n \"Ivy\"\n \"Jack\"\n \"Kathy\"\n \"Leo\"\n \"Mona\"\n \"Nina\"\n \"Oscar\"\n \"Paul\"\n \"Queen\"\n \"Rita\"\n \"Steve\"\n \"Tina\"\n\n\n\ndf[:, :Salary]            # 列を配列として取り出す\n\n20-element Vector{Int64}:\n 40000\n 50000\n 60000\n 55000\n 45000\n 62000\n 52000\n 48000\n 47000\n 58000\n 53000\n 61000\n 49000\n 57000\n 54000\n 46000\n 51000\n 56000\n 63000\n 44000\n\n\n\ndf[1:10, [:Name, :Salary]]  # 部分選択\n\n10×2 DataFrameRowNameSalaryDataStri…Int641Alice400002Bob500003Charlie600004David550005Eve450006Frank620007Grace520008Hank480009Ivy4700010Jack58000\n\n\n\n\nデータをプロットする\nPlotsパッケージのインストール\n\nusing Pkg\nPkg.add(\"Plots\")\nusing Plots\n\nプロットの基本\n\nplot(x, y; オプション...)\nx: 横軸のデータ（ベクトルや配列）\ny: 縦軸のデータ（同じ長さのベクトルや配列）\n; オプション... : タイトル、軸ラベル、色、凡例など\n\n代表的なプロット関数\n\n\n\n関数\n説明\n\n\n\n\nplot(x, y)\n折れ線グラフ\n\n\nscatter(x, y)\n散布図\n\n\nbar(x, y)\n棒グラフ\n\n\nhistogram(x)\nヒストグラム\n\n\n\nよく使うオプション\n\ntitle = \"タイトル\", xlabel = \"X軸ラベル\", ylabel = \"Y軸ラベル\"\nlegend = true 凡例表示\ncolor = :blue 線や点の色\nlw = 2 線の太さ (line width)\nmarker = :circle 散布図の点の形\n\nなど。Plots.jl はキーワード引数でカスタマイズできるのが特徴。\nプロットの保存\n\nPNG形式で保存 savefig(\"plot.png\")\nPDF形式で保存 savefig(\"plot.pdf\")\nSVG形式で保存（ベクター画像） savefig(\"plot.svg\")\n\n詳しくは、Plots.jlのサイトを参照\n\n\nデータをプロットする\n棒グラフのプロット\n\navg_salary = combine(groupby(df, :Department), :Salary =&gt; mean =&gt; :AvgSalary) # 部署ごとの平均給与データを作成\n\n\nbar(avg_salary.Department, avg_salary.AvgSalary,\n    title = \"Average Salary by Department\",\n    xlabel = \"\", ylabel = \"Average Salary\",\n    legend = false)\n#savefig(\"plot_avg_salary_Department.pdf\")\n\n\n\n\nヒストグラムのプロット\n\nhistogram(df.Age, bins=6,\n    title = \"Age Distribution\",\n    xlabel = \"Age\", ylabel = \"\", legend = false)\n#savefig(\"plot_Age_Distribution.pdf\")\n\n\n\n\n散布図のプロット\n\nscatter(df.YearsExperience, df.Salary,\n    title = \"Salary vs Experience\",\n    xlabel = \"Years of Experience\", ylabel = \"Salary\", legend = false)\n#savefig(\"plot_Salary_vs_Experience.pdf\")\n\n\n\n\n複数の図を並べる\n\np1 = scatter(df.YearsExperience, df.Salary,\n    title = \"Salary vs Experience\",\n    xlabel = \"Years of Experience\", ylabel = \"Salary\", legend = false)\n\np2 = bar(avg_salary.Department, avg_salary.AvgSalary,\n    title = \"Average Salary by Department\", legend = false)\n\np3 = histogram(df.Age, bins = 6,\n    title = \"Age Distribution\", xlabel = \"Age\", ylabel = \"\", legend = false)\n\n\n# 3つの図を並べて表示\nplot(p1, p2, p3, layout = (1, 3), size=(1200, 400))\n\n\n\n\n\n\n表を作る\nSummaryTables パッケージを使うことで表を作ることができます。\nインストールと読み込み\n\nusing Pkg\nPkg.add(\"SummaryTables\")\n\nusing SummaryTables\n\n\n\n表を作る\n簡単な表simple_table()\n\nsimple_table(df)\n\n\n    \n    \n    \n        ID\n        Name\n        Age\n        Department\n        Salary\n        YearsExperience\n    \n            \n        1\n        Alice\n        23\n        Sales\n        40000\n        1\n    \n    \n        2\n        Bob\n        35\n        HR\n        50000\n        7\n    \n    \n        3\n        Charlie\n        45\n        IT\n        60000\n        15\n    \n    \n        4\n        David\n        29\n        Finance\n        55000\n        5\n    \n    \n        5\n        Eve\n        31\n        Sales\n        45000\n        6\n    \n    \n        6\n        Frank\n        40\n        IT\n        62000\n        12\n    \n    \n        7\n        Grace\n        22\n        Finance\n        52000\n        8\n    \n    \n        8\n        Hank\n        34\n        HR\n        48000\n        10\n    \n    \n        9\n        Ivy\n        28\n        Sales\n        47000\n        4\n    \n    \n        10\n        Jack\n        30\n        IT\n        58000\n        9\n    \n    \n        11\n        Kathy\n        27\n        Finance\n        53000\n        3\n    \n    \n        12\n        Leo\n        50\n        Sales\n        61000\n        20\n    \n    \n        13\n        Mona\n        41\n        HR\n        49000\n        11\n    \n    \n        14\n        Nina\n        36\n        IT\n        57000\n        13\n    \n    \n        15\n        Oscar\n        33\n        Finance\n        54000\n        14\n    \n    \n        16\n        Paul\n        26\n        Sales\n        46000\n        2\n    \n    \n        17\n        Queen\n        24\n        HR\n        51000\n        5\n    \n    \n        18\n        Rita\n        39\n        IT\n        56000\n        8\n    \n    \n        19\n        Steve\n        48\n        Finance\n        63000\n        17\n    \n    \n        20\n        Tina\n        29\n        Sales\n        44000\n        6",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>TAセッション第2回</span>"
+    ]
+  },
+  {
+    "objectID": "Macro4-TA-Session-2.html#終わりに",
+    "href": "Macro4-TA-Session-2.html#終わりに",
+    "title": "JuliaとQuartoを使ってレポートを書く 2",
+    "section": "終わりに",
+    "text": "終わりに\n\n質問があればお気軽に。TAセッションでもメールでもbeef+でもなんでも。",
+    "crumbs": [
+      "<span class='chapter-number'>4</span>  <span class='chapter-title'>TAセッション第2回</span>"
     ]
   }
 ]

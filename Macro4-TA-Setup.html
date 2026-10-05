@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Hirotaka Fukui">
 
-<title>Macroeconomics IV 2026</title>
+<title>Quarto, Julia, VSCodeのセットアップ方法 – Macroeconomics IV 2026</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -36,17 +37,22 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./Macro4-TA-Setup.html" rel="next">
+<link href="./Macro4-TA-Session-1.html" rel="next">
+<link href="./index.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cf94ea93fd28315bf28441c54586515c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-79dc900cf10df015b40f8d411b8e1e23.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-79dc900cf10df015b40f8d411b8e1e23.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-79dc900cf10df015b40f8d411b8e1e23.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "sidebar",
   "copy-button": false,
@@ -78,7 +84,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating fullcontent quarto-light">
+<body class="nav-sidebar floating quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -87,7 +93,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-title">TA Session 資料</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Macro4-TA-Setup.html"><span class="chapter-title">Setup</span></a></li></ol></nav>
         <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
@@ -114,12 +120,12 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">TA Session 資料</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">TA Session 資料</span></a>
   </div>
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./Macro4-TA-Setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Setup</span></a>
+  <a href="./Macro4-TA-Setup.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Setup</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -137,20 +143,67 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#quartojuliavscodeの準備" id="toc-quartojuliavscodeの準備" class="nav-link active" data-scroll-target="#quartojuliavscodeの準備">Quarto、Julia、VScodeの準備</a>
+  <ul class="collapse">
+  <li><a href="#quartojuliavscodeの準備-1" id="toc-quartojuliavscodeの準備-1" class="nav-link" data-scroll-target="#quartojuliavscodeの準備-1">Quarto、Julia、VScodeの準備</a></li>
+  </ul></li>
+  <li><a href="#windows" id="toc-windows" class="nav-link" data-scroll-target="#windows">Windows</a>
+  <ul class="collapse">
+  <li><a href="#julia" id="toc-julia" class="nav-link" data-scroll-target="#julia">Julia</a></li>
+  <li><a href="#quarto" id="toc-quarto" class="nav-link" data-scroll-target="#quarto">Quarto</a></li>
+  <li><a href="#vscode" id="toc-vscode" class="nav-link" data-scroll-target="#vscode">VScode</a></li>
+  <li><a href="#juliaの動作確認" id="toc-juliaの動作確認" class="nav-link" data-scroll-target="#juliaの動作確認">Juliaの動作確認</a></li>
+  <li><a href="#quartoの動作確認" id="toc-quartoの動作確認" class="nav-link" data-scroll-target="#quartoの動作確認">Quartoの動作確認</a></li>
+  </ul></li>
+  <li><a href="#mac" id="toc-mac" class="nav-link" data-scroll-target="#mac">Mac</a>
+  <ul class="collapse">
+  <li><a href="#参考にしたサイト" id="toc-参考にしたサイト" class="nav-link" data-scroll-target="#参考にしたサイト">参考にしたサイト</a></li>
+  <li><a href="#homebrewのインストール" id="toc-homebrewのインストール" class="nav-link" data-scroll-target="#homebrewのインストール">Homebrewのインストール</a></li>
+  <li><a href="#julia-1" id="toc-julia-1" class="nav-link" data-scroll-target="#julia-1">Julia</a></li>
+  <li><a href="#quarto-1" id="toc-quarto-1" class="nav-link" data-scroll-target="#quarto-1">Quarto</a></li>
+  <li><a href="#vscode-1" id="toc-vscode-1" class="nav-link" data-scroll-target="#vscode-1">VScode</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Macroeconomics IV 2026</h1>
+<h1 class="title"><span class="chapter-title">Quarto, Julia, VSCodeのセットアップ方法</span></h1>
+<p class="subtitle lead">マクロ経済学IV 2026</p>
 </div>
 
 
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Hirotaka Fukui <a href="mailto:227e127e@gsuite.kobe-u.ac.jp" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kobe University, Graduate School of Economics
+          </p>
+      </div>
+  </div>
 
 <div class="quarto-title-meta">
 
-    
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2026年10月5日</p>
+    </div>
+  </div>
   
     
   </div>
@@ -160,103 +213,183 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="ta-session-資料" class="level1 unlisted">
-<h1 class="unlisted">TA Session 資料</h1>
-<p>TA Sessionの解説資料です。</p>
-<table class="caption-top table">
-<thead>
-<tr class="header">
-<th style="text-align: left;">Material</th>
-<th style="text-align: left;">Topic</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;"><a href="Macro4-TA-Setup.html">Setup</a></td>
-<td style="text-align: left;">Quarto, Julia, VSCode のセットアップ</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;"><a href="Macro4-TA-Session-1.html">TAセッション第1回</a></td>
-<td style="text-align: left;">JuliaとQuartoを使ってレポートを書く 1</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;"><a href="Macro4-TA-Session-2.html">TAセッション第2回</a></td>
-<td style="text-align: left;">JuliaとQuartoを使ってレポートを書く 2</td>
-</tr>
-</tbody>
-</table>
-<section id="ta-sessionの日程" class="level2">
-<h2 class="anchored" data-anchor-id="ta-sessionの日程">TA Sessionの日程</h2>
-<p><strong>対面＋オンライン</strong>の形式で行います。</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-<col style="width: 25%">
-</colgroup>
-<thead>
-<tr class="header">
-<th style="text-align: left;">回</th>
-<th style="text-align: left;">日時</th>
-<th style="text-align: left;">教室</th>
-<th style="text-align: left;">内容</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">第1回</td>
-<td style="text-align: left;">2026年10月7日（水）4限（15:10～17:10）</td>
-<td style="text-align: left;">本館217</td>
-<td style="text-align: left;">課題提出に必要なJuliaおよびQuartoの基礎的な知識について説明します。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">第2回</td>
-<td style="text-align: left;">2026年10月14日（水）4限（15:10～17:10）</td>
-<td style="text-align: left;">本館217</td>
-<td style="text-align: left;">課題提出に必要なJuliaおよびQuartoの基礎的な知識について説明します。</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">第3回</td>
-<td style="text-align: left;">2026年10月21日（水）4限（15:10～17:10）</td>
-<td style="text-align: left;">本館217</td>
-<td style="text-align: left;">課題提出に必要なGitHubの使い方について説明します。</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">第4回</td>
-<td style="text-align: left;">2026年11月4日（水）2限（10:40～12:10）</td>
-<td style="text-align: left;">未定</td>
-<td style="text-align: left;">第1回課題解説</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">第5回</td>
-<td style="text-align: left;">2026年12月9日（水）4限（15:10～17:10）</td>
-<td style="text-align: left;">未定</td>
-<td style="text-align: left;">第2回課題解説</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">第6回</td>
-<td style="text-align: left;">2027年1月6日（水）4限（15:10～16:40）</td>
-<td style="text-align: left;">未定</td>
-<td style="text-align: left;">第3回課題解説</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">第7回</td>
-<td style="text-align: left;">2027年1月20日（水）4限（15:10～16:40）</td>
-<td style="text-align: left;">未定</td>
-<td style="text-align: left;">第4回課題解説</td>
-</tr>
-</tbody>
-</table>
+<section id="quartojuliavscodeの準備" class="level1">
+<h1>Quarto、Julia、VScodeの準備</h1>
+<section id="quartojuliavscodeの準備-1" class="level2">
+<h2 class="anchored" data-anchor-id="quartojuliavscodeの準備-1">Quarto、Julia、VScodeの準備</h2>
+<p>Quarto、Julia、VScodeをPC上で使うための準備をしていきます。</p>
+<ul>
+<li>WindowsとMacを例に解説していきます。</li>
+</ul>
+<p>流れとしては</p>
+<ul>
+<li>Julia のインストールと基本設定<br>
+</li>
+<li>Quarto 環境の構築<br>
+</li>
+<li>VSCode での統合開発環境（IDE）の設定<br>
+</li>
+<li>Julia + Quarto + VSCode の連携確認</li>
+</ul>
+<p>という感じです。</p>
 </section>
-<section id="オンラインの接続情報" class="level2">
-<h2 class="anchored" data-anchor-id="オンラインの接続情報">オンラインの接続情報</h2>
-<p>Google Meetを使用します。以下のリンクを使って入室してください。</p>
-<p><a href="https://meet.google.com/dwc-cxjk-pjp">TAセッションのオンラインリンク</a></p>
 </section>
-<section id="notes" class="level2">
-<h2 class="anchored" data-anchor-id="notes">Notes</h2>
-<p><a href="barganing.html">Note on Solution of Bargaining Problem</a></p>
+<section id="windows" class="level1">
+<h1>Windows</h1>
+<section id="julia" class="level2">
+<h2 class="anchored" data-anchor-id="julia">Julia</h2>
+<p><strong>ダウンロードととインストール</strong></p>
+<p><strong>juliaup</strong>という Julia の公式インストーラ兼バージョンマネージャから入手するのが簡単です。</p>
+<ol type="1">
+<li>Microsoft Storeの <a href="https://apps.microsoft.com/detail/9njnww8pvkmn?hl=ja-JP&amp;gl=JP">Julia アプリページ</a> にアクセス<br>
+</li>
+<li>「入手」ボタンを押すだけで juliaup がインストールされます<br>
+</li>
+<li>PowerShell を開き、次で確認：</li>
+</ol>
+<pre><code>juliaup status</code></pre>
+<p>「default: release」と表示されればOKです。</p>
+<p>PowerShell から直接インストールすることもできます。</p>
+<pre><code>winget install julia -s msstore</code></pre>
+<p>とPowerShellで入力してください。</p>
+<p>別の方法として<a href="https://julialang.org/downloads/">公式サイト</a>から直接入手することもできます。</p>
+<p>推奨はStable Release版 (2025年10月6日現在では Julia 1.11.7)</p>
+<ol type="1">
+<li>Windows (64-bit もしくは32-bitのInstaller) を選択します。</li>
+<li>インストーラを起動し、「Add Julia to PATH」にチェック</li>
+</ol>
+<p>powershellで</p>
+<pre><code>julia</code></pre>
+<p>と入力し実行するとJulia REPL（対話環境）が開きます。そして</p>
+<pre><code>julia&gt; versioninfo()</code></pre>
+<p>を入力し、バージョン情報が表示されればJuliaのインストール成功です。</p>
+</section>
+<section id="quarto" class="level2">
+<h2 class="anchored" data-anchor-id="quarto">Quarto</h2>
+<p><strong>ダウンロードとインストール</strong></p>
+<p>公式サイトからダウンロードします。</p>
+<ol type="1">
+<li><a href="https://quarto.org/docs/get-started/">Quartoの公式サイト</a>から<strong>Windows</strong>を選択してダウンロードします。</li>
+</ol>
+<p>うまくインストールできていれば、PowerShellで</p>
+<pre><code>quarto check</code></pre>
+<p>を実行すると</p>
+<pre><code>[✓] Checking Quarto installation......OK
+[✓] Checking Julia engine............OK</code></pre>
+<p>のような結果が返ってくるはずです。</p>
+</section>
+<section id="vscode" class="level2">
+<h2 class="anchored" data-anchor-id="vscode">VScode</h2>
+<p>Quarto+Juliaを動かす環境はいろいろありますが、今回はVScodeを使います。</p>
+<p>ほかのものが使いたい場合は<a href="https://quarto.org/docs/get-started/">Quartoの公式サイト</a>を参照してください。</p>
+<p><strong>ダウンロードととインストール</strong></p>
+<ul>
+<li>Visual Studio Code公式サイトよりWindows版を選択してダウンロード。</li>
+</ul>
+<p><strong>拡張機能(Extensions)の導入</strong></p>
+<p>おすすめ拡張機能</p>
+<ul>
+<li>“Julia”: Julia 実行の補助</li>
+<li>“Quarto”: Quarto (.qmd) の補助</li>
+<li>“Markdown All in One”: Markdownの書式補助</li>
+</ul>
+<p><strong>インストール方法</strong>: <code>Ctrl+Shift+X</code> → 検索バーで拡張機能名を入力 → Install</p>
+</section>
+<section id="juliaの動作確認" class="level2">
+<h2 class="anchored" data-anchor-id="juliaの動作確認">Juliaの動作確認</h2>
+<p><strong>実行ファイル作成</strong></p>
+<ol type="1">
+<li>VSCode 左上の「新しいファイル」アイコンをクリック<br>
+</li>
+<li>右下で「言語モードを選択」→ Julia (Quarto)を選ぶ<br>
+</li>
+<li>名前をつけて保存（例：hello.jl）</li>
+</ol>
+<p>hello.jl を作成して以下を記述：</p>
+<div id="2" class="cell" data-execution_count="1">
+<div class="cell-output cell-output-stdout">
+<pre><code>Hello, Julia  from VSCode!</code></pre>
+</div>
+</div>
+<p>実行: 右上の<code>Run</code> ボタンで実行、<code>Alt + Enter</code>（選択部分を実行）または <code>Ctrl + F5</code>（全体実行）</p>
+<pre><code>Hello, Julia from VSCode!</code></pre>
+<p>と表示されれば成功。</p>
+</section>
+<section id="quartoの動作確認" class="level2">
+<h2 class="anchored" data-anchor-id="quartoの動作確認">Quartoの動作確認</h2>
+<p>せっかくなので</p>
+<p><a href="https://github.com/kazuyanagimoto/course-kobe-macro4-2025/blob/main/assignment/00-answer.qmd">マクロIVでのテンプレート</a></p>
+<p>を使って動作確認してみましょう。</p>
+<p>リンク先からqmdファイルをダウンロードして自分のフォルダに置きます。</p>
+<p><strong>プレビュー</strong> Ctrl + Shift + Kまたは右上のpreviewボタンをクリック。</p>
+<p><strong>レンダー</strong> quarto render 00-answer.qmd</p>
+<p>pdfが生成されるはずです。</p>
+</section>
+</section>
+<section id="mac" class="level1">
+<h1>Mac</h1>
+<p>僕自身はApple製のPCを持っていないのでネットの情報を中心に書いています。</p>
+<p>もしかしたらうまく動作しない可能性があります。</p>
+<p>その時は柳本先生に質問していただいたほうがいいかもしれません。</p>
+<section id="参考にしたサイト" class="level2">
+<h2 class="anchored" data-anchor-id="参考にしたサイト">参考にしたサイト</h2>
+<ul>
+<li><a href="https://qiita.com/psymonmarkrine/items/0a363163dc462e463917">Julia言語のインストールとjuliaupのメモ</a></li>
+<li><a href="https://qiita.com/antimon2/items/196802d3f7ac2ac2f34e">Julia の（による）新常識</a></li>
+<li><a href="https://qiita.com/Sangen_u/items/ff7ee6ec1ef2c13f8f99">Quarto でレポート執筆（M1 Mac + VSCode）</a></li>
+<li><a href="https://quarto.org/docs/get-started/">Quarto公式サイト</a></li>
+<li><a href="https://qiita.com/Takayoshi_Makabe/items/742ab1da1556cd54a78f">M1 Macにhomebrewをインストールする（3.0.0版）</a></li>
+</ul>
+</section>
+<section id="homebrewのインストール" class="level2">
+<h2 class="anchored" data-anchor-id="homebrewのインストール">Homebrewのインストール</h2>
+<pre><code>$ /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+# パスを通します
+$ echo 'eval $(/opt/homebrew/bin/brew shellenv)' &gt;&gt; ~/.zshrc</code></pre>
+<p>インストール後、<code>which brew</code>で確認すると<code>/opt/homebrew/bin/brew</code>がインストール先として表示されるようです。</p>
+</section>
+<section id="julia-1" class="level2">
+<h2 class="anchored" data-anchor-id="julia-1">Julia</h2>
+<p><strong>juliaupのインストール</strong></p>
+<p>Homebrewを使ってターミナルからインストール:</p>
+<pre><code>brew install juliaup</code></pre>
+<p>動作確認：</p>
+<pre><code>juliaup status</code></pre>
+<p>Juliaを起動して確認：</p>
+<pre><code>julia</code></pre>
+<p><code>julia version 1.12.x</code> のような表示が出れば成功です。</p>
+</section>
+<section id="quarto-1" class="level2">
+<h2 class="anchored" data-anchor-id="quarto-1">Quarto</h2>
+<p><strong>インストール</strong></p>
+<p>ターミナルで</p>
+<pre><code>brew install quarto</code></pre>
+<p>と打ち込むかもしくは<a href="https://quarto.org/docs/get-started/">公式サイト</a>からインストーラをダウンロードしてもOKです。</p>
+<p>インストール後に</p>
+<pre><code>quarto check</code></pre>
+<p>と打って</p>
+<pre><code>[✓] Checking Quarto installation......OK
+[✓] Checking Julia engine............OK</code></pre>
+<p>のような結果が返ってくれば大丈夫です。</p>
+</section>
+<section id="vscode-1" class="level2">
+<h2 class="anchored" data-anchor-id="vscode-1">VScode</h2>
+<ol type="1">
+<li>VScodeの<a href="https://code.visualstudio.com/Download">公式サイト</a>に行き、リンゴのマークのものを選びます。</li>
+<li>ダウンロードフォルダからVSCodeのファイルを選び、クリックします。</li>
+<li>アイコンが作られるのでそれをドラッグ&amp;ドロップでサイドメニューのアプリケーションに移動させます。</li>
+<li>サイドメニューのアプリケーションから開きます。</li>
+</ol>
+<p><strong>拡張機能(Extensions)の導入</strong></p>
+<p>おすすめ拡張機能</p>
+<ul>
+<li>“Julia”: Julia 実行の補助</li>
+<li>“Quarto”: Quarto (.qmd) の補助</li>
+<li>“Markdown All in One”: Markdownの書式補助</li>
+</ul>
+<p><strong>インストール方法</strong>: <code>⌘ + Shift + X</code> → 検索バーで拡張機能名を入力 → Install</p>
+<p>そのあとの動作確認などはWindows版と同じです。</p>
 
 
 </section>
@@ -665,10 +798,13 @@ ul.task-list li input[type="checkbox"] {
   </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./index.html" class="pagination-link" aria-label="TA Session 資料">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">TA Session 資料</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./Macro4-TA-Setup.html" class="pagination-link" aria-label="Setup">
-        <span class="nav-page-text"><span class="chapter-title">Setup</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./Macro4-TA-Session-1.html" class="pagination-link" aria-label="TAセッション第1回">
+        <span class="nav-page-text"><span class="chapter-title">TAセッション第1回</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
