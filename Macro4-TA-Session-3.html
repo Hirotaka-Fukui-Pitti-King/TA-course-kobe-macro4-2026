@@ -1,0 +1,793 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.19">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Hirotaka Fukui">
+
+<title>Github入門 – Macroeconomics IV 2026</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./barganing.html" rel="next">
+<link href="./Macro4-TA-Session-2.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bf27225e3a48a9273f3daa8f8e829971.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-38a9ca4416d2baf3eb6df5e3b2130831.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-dark-38a9ca4416d2baf3eb6df5e3b2130831.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-38a9ca4416d2baf3eb6df5e3b2130831.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+
+
+</head>
+
+<body class="nav-sidebar floating quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav">
+    <div class="container-fluid d-flex">
+      <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" role="button" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+        <i class="bi bi-layout-text-sidebar-reverse"></i>
+      </button>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./Macro4-TA-Session-3.html"><span class="chapter-title">TAセッション第3回</span></a></li></ol></nav>
+        <a class="flex-grow-1" role="navigation" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
+        </a>
+      <button type="button" class="btn quarto-search-button" aria-label="Search" onclick="window.quartoOpenSearch();">
+        <i class="bi bi-search"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-left sidebar-header">
+    <div class="sidebar-title mb-0 py-0">
+      <a href="./">Macroeconomics IV 2026</a> 
+    </div>
+      </div>
+        <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+        </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">TA Session 資料</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Macro4-TA-Setup.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Setup</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Macro4-TA-Session-1.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">TAセッション第1回</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Macro4-TA-Session-2.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">TAセッション第2回</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./Macro4-TA-Session-3.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">TAセッション第3回</span></a>
+  </div>
+</li>
+        <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./barganing.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Note1: Bargaining Problem</span></a>
+  </div>
+</li>
+    </ul>
+    </div>
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#はじめに" id="toc-はじめに" class="nav-link active" data-scroll-target="#はじめに">はじめに</a>
+  <ul class="collapse">
+  <li><a href="#taセッション3の目的" id="toc-taセッション3の目的" class="nav-link" data-scroll-target="#taセッション3の目的">TAセッション3の目的</a></li>
+  </ul></li>
+  <li><a href="#セットアップ" id="toc-セットアップ" class="nav-link" data-scroll-target="#セットアップ">セットアップ</a>
+  <ul class="collapse">
+  <li><a href="#gitをwindowsにインストールする" id="toc-gitをwindowsにインストールする" class="nav-link" data-scroll-target="#gitをwindowsにインストールする">GitをWindowsにインストールする</a></li>
+  <li><a href="#gitに自分の名前とメールアドレスを登録する" id="toc-gitに自分の名前とメールアドレスを登録する" class="nav-link" data-scroll-target="#gitに自分の名前とメールアドレスを登録する">Gitに自分の名前とメールアドレスを登録する</a></li>
+  <li><a href="#githubと接続する" id="toc-githubと接続する" class="nav-link" data-scroll-target="#githubと接続する">GitHubと接続する</a></li>
+  </ul></li>
+  <li><a href="#github入門" id="toc-github入門" class="nav-link" data-scroll-target="#github入門">Github入門</a>
+  <ul class="collapse">
+  <li><a href="#基礎概念" id="toc-基礎概念" class="nav-link" data-scroll-target="#基礎概念">基礎概念</a>
+  <ul class="collapse">
+  <li><a href="#レポジトリ" id="toc-レポジトリ" class="nav-link" data-scroll-target="#レポジトリ">レポジトリ</a></li>
+  <li><a href="#コミット" id="toc-コミット" class="nav-link" data-scroll-target="#コミット">コミット</a></li>
+  <li><a href="#local-repositoryとremote-repository" id="toc-local-repositoryとremote-repository" class="nav-link" data-scroll-target="#local-repositoryとremote-repository">Local RepositoryとRemote Repository</a></li>
+  </ul></li>
+  <li><a href="#基本操作-push-と-pull" id="toc-基本操作-push-と-pull" class="nav-link" data-scroll-target="#基本操作-push-と-pull">基本操作: Push と Pull</a></li>
+  </ul></li>
+  <li><a href="#課題の提出方法" id="toc-課題の提出方法" class="nav-link" data-scroll-target="#課題の提出方法">課題の提出方法</a>
+  <ul class="collapse">
+  <li><a href="#課題提出用レポジトリを自分のpcに保存する" id="toc-課題提出用レポジトリを自分のpcに保存する" class="nav-link" data-scroll-target="#課題提出用レポジトリを自分のpcに保存する">課題提出用レポジトリを自分のPCに保存する</a></li>
+  <li><a href="#github-による提出" id="toc-github-による提出" class="nav-link" data-scroll-target="#github-による提出">GitHub による提出</a></li>
+  <li><a href="#提出練習" id="toc-提出練習" class="nav-link" data-scroll-target="#提出練習">提出練習</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title"><span class="chapter-title">Github入門</span></h1>
+<p class="subtitle lead">マクロ経済学IV 2026</p>
+</div>
+
+
+<div class="quarto-title-meta-author">
+  <div class="quarto-title-meta-heading">Author</div>
+  <div class="quarto-title-meta-heading">Affiliation</div>
+  
+    <div class="quarto-title-meta-contents">
+    <p class="author">Hirotaka Fukui <a href="mailto:227e127e@gsuite.kobe-u.ac.jp" class="quarto-title-author-email"><i class="bi bi-envelope"></i></a> </p>
+  </div>
+  <div class="quarto-title-meta-contents">
+        <p class="affiliation">
+            Kobe University, Graduate School of Economics
+          </p>
+      </div>
+  </div>
+
+<div class="quarto-title-meta">
+
+      
+    <div>
+    <div class="quarto-title-meta-heading">Published</div>
+    <div class="quarto-title-meta-contents">
+      <p class="date">2026年10月20日</p>
+    </div>
+  </div>
+  
+    
+  </div>
+  
+
+
+</header>
+
+
+<section id="はじめに" class="level1">
+<h1>はじめに</h1>
+<section id="taセッション3の目的" class="level2">
+<h2 class="anchored" data-anchor-id="taセッション3の目的">TAセッション3の目的</h2>
+<p>第1回と第2回のTAセッションではJuliaとQuartoを用いてレポート課題を作成する方法についてみていきましたが、今回はGithubを使って課題を提出する方法についてみていきます。</p>
+</section>
+</section>
+<section id="セットアップ" class="level1">
+<h1>セットアップ</h1>
+<p>VS CodeでGitをセットアップします。最初にWindowsへGitをインストールし、VS CodeからそのGitを利用します。流れとしては</p>
+<pre><code>Gitをインストール
+        ↓
+VS CodeからGitを確認
+        ↓
+名前・メールアドレスを設定</code></pre>
+<p>になります。</p>
+<section id="gitをwindowsにインストールする" class="level2">
+<h2 class="anchored" data-anchor-id="gitをwindowsにインストールする">GitをWindowsにインストールする</h2>
+<p>公式のGit for Windowsから<a href="https://git-scm.com/install/windows">インストーラー</a>を取得できます。インストール後はVS Codeをいったん終了して再起動してください。</p>
+<p>VS Codeを開き、<code>Terminal → New Terminal</code> を選択します。WindowsであればPowerShellが表示されます。次のように入力します。</p>
+<pre><code>git --version</code></pre>
+<p>バージョンが表示されれば成功です。</p>
+</section>
+<section id="gitに自分の名前とメールアドレスを登録する" class="level2">
+<h2 class="anchored" data-anchor-id="gitに自分の名前とメールアドレスを登録する">Gitに自分の名前とメールアドレスを登録する</h2>
+<p>VS Codeのターミナルで次を実行します。</p>
+<pre><code>git config --global user.name "Your Name"</code></pre>
+<p>続いてメールアドレスを設定します。</p>
+<pre><code>git config --global user.email "your@email.me"</code></pre>
+<p>これはGitHubへのログイン情報ではありません。コミットのAuthorがだれなのかという情報です。設定を確認するには、</p>
+<pre><code>git config --global user.name
+git config --global user.email</code></pre>
+</section>
+<section id="githubと接続する" class="level2">
+<h2 class="anchored" data-anchor-id="githubと接続する">GitHubと接続する</h2>
+<p><code>Ctrl + Shift + P</code>でコマンドパレットを開きます。そして、<code>Publish to GitHub</code> を探します。初回であれば、<code>Sign in to GitHub</code> というログイン画面が表示されるのでログインし、VS Codeとの接続を許可します。</p>
+</section>
+</section>
+<section id="github入門" class="level1">
+<h1>Github入門</h1>
+<p>卒論などを作成した際、次のようなファイルを作ったことはないでしょうか。</p>
+<ul>
+<li>卒論.docx</li>
+<li>卒論_修正版.docx</li>
+<li>卒論_最終版.docx</li>
+<li>卒論_最終版2.docx</li>
+<li>卒論_本当の最終版.docx</li>
+</ul>
+<blockquote class="blockquote">
+<p>どれが最新？</p>
+</blockquote>
+<p>このような管理方法には問題があります。どのファイルが最新なのかわからなくなるだけでなく、いつ、何を、なぜ変更したのかも記録されません。複数人で作業する場合、さらに複雑になります。</p>
+<p>GitとGithubはこの問題を解決するためのバージョン管理システムです。Gitでは一つのファイルを何度もコピーする代わりにプロジェクトの変更履歴を記録します。変更前と変更後を比較したり、過去の状態を復元したりできます。</p>
+<section id="基礎概念" class="level2">
+<h2 class="anchored" data-anchor-id="基礎概念">基礎概念</h2>
+<section id="レポジトリ" class="level3">
+<h3 class="anchored" data-anchor-id="レポジトリ">レポジトリ</h3>
+<p>レポジトリ（Repository）はファイルとその変更履歴を管理する場所です。例えば、レポートでデータ分析のコードとレポート本文を作成するとします。通常のフォルダでは現在のファイルを保存しますが、レポジトリではそれらのファイルが過去にどのように変更されたのかも記録できます。</p>
+<p>この履歴があれば最新のコードだけでなく、以前の推定方法や、どのコミットで分析内容が変更されたのかも確認できます。ここで重要なのは、Gitは単にファイルを保存するのではなく、コミットによってプロジェクトの状態を記録するということです。</p>
+</section>
+<section id="コミット" class="level3">
+<h3 class="anchored" data-anchor-id="コミット">コミット</h3>
+<p>コミット（Commit）はプロジェクトのある時点の状態を変更履歴として記録する操作です。例えばレポートを作成しているとします。最初にデータを読み込むコードを書き、そのあと回帰分析を追加し、最後に標準誤差の計算方法を変更したとしましょう。Githubではこうした作業の節目ごとにコミットを作成できます。</p>
+</section>
+<section id="local-repositoryとremote-repository" class="level3">
+<h3 class="anchored" data-anchor-id="local-repositoryとremote-repository">Local RepositoryとRemote Repository</h3>
+<p>Gitでは主に2種類のリポジトリを区別します。</p>
+<p><strong>Local Repository（ローカルリポジトリ）</strong></p>
+<p>自分のパソコンの中にあるGitリポジトリです。その中の <code>.git</code> ディレクトリにコミット履歴などが保存されています。ローカルリポジトリで</p>
+<pre><code>git status
+git add Report.qmd
+git commit -m "Add Report.qmd"
+git log</code></pre>
+<p>という操作ができます。</p>
+<p><strong>Remote Repository（リモートリポジトリ）</strong></p>
+<p>ネットワーク上にあるGitリポジトリです。代表的なものがGitHubです。ローカルで作成したコミットをGitHubへ送るには、</p>
+<pre><code>git push</code></pre>
+<p>を使います。逆にGitHub上の変更を自分のパソコンへ取り込むには、</p>
+<pre><code>git pull</code></pre>
+<p>を使います。したがって、全体像は次のようになります。</p>
+<pre><code>自分のパソコン: Local Repository
+       │
+       │ git push
+       ▼
+GitHub: Remote Repository
+       │
+       │ git pull
+       ▼
+自分のパソコン: Local Repository</code></pre>
+</section>
+</section>
+<section id="基本操作-push-と-pull" class="level2">
+<h2 class="anchored" data-anchor-id="基本操作-push-と-pull">基本操作: Push と Pull</h2>
+<p>GitでLocal RepositoryとRemote Repositoryを使うとき、中心となる操作が push と pull です。Pushは自分のコミットをRemote Repositoryへ送る操作、PullはRemote Repositoryの変更を自分のLocal Repositoryへ取り込む操作です。</p>
+<p>例えば、自分のパソコンで <code>Report.qmd</code> を修正し、</p>
+<pre><code>git add Report.qmd
+git commit -m "Add Report.qmd"</code></pre>
+<p>と操作します。コミットした時点では変更履歴はまだ自分のLocal Repositoryにしかありません。ここで、</p>
+<pre><code>git push</code></pre>
+<p>を実行するとローカルで作成したコミットがGitHubのRemote Repositoryへ送信されます。</p>
+<pre><code>Local Repository
+       │
+       │ git push
+       ▼
+GitHub: Remote Repository</code></pre>
+<p>今度は、他の人がGitHub上のリポジトリを更新したとします。例えば先生が課題をGitHubのRemote Repositoryへ追加したとします。そこで、</p>
+<pre><code>git pull</code></pre>
+<p>を実行します。するとRemote Repositoryにある新しいコミットを取得し、自分の現在のブランチへ統合します。</p>
+<pre><code>Remote Repository
+       │
+       │ git pull
+       ▼
+Local Repository</code></pre>
+<p>つまり、Pushは「自分から共有場所へ送る」、Pullは「共有場所から自分へ取り込む」操作です。</p>
+</section>
+</section>
+<section id="課題の提出方法" class="level1">
+<h1>課題の提出方法</h1>
+<section id="課題提出用レポジトリを自分のpcに保存する" class="level2">
+<h2 class="anchored" data-anchor-id="課題提出用レポジトリを自分のpcに保存する">課題提出用レポジトリを自分のPCに保存する</h2>
+<p><code>macro4-Your-Name</code>という形で課題提出用のプライベートレポジトリが作成されているはずです。これを自分のパソコンで触れるように設定します。</p>
+<p><code>Ctrl + Shift + P</code>を押し、コマンドパレットを開きます。<code>Git: Clone</code>を探して選択します。</p>
+<p>GitHubにサインインしている場合は <code>Clone from GitHub</code>という選択肢が出てくるはずなのでそれを押し、<code>macro4-</code>から始まる自分のレポジトリを探して選択します。</p>
+<p>PC上での保存場所を選び保存します。</p>
+</section>
+<section id="github-による提出" class="level2">
+<h2 class="anchored" data-anchor-id="github-による提出">GitHub による提出</h2>
+<p>課題ごとにフォルダ (<code>00/, 01/, ...</code>) が作られます。その中の <code>answer.qmd</code> に解答やコードを書き、<code>push</code> することで提出することができます。新しい課題のフォルダは課題が発表されるタイミングで先生からそれぞれのレポジトリに <code>push</code> されるので<code>git pull</code> してから作業を行ってください。</p>
+<p>提出に必要なファイルは <code>answer.qmd</code> と, パッケージを追加したときの <code>Project.toml</code> の2つだけなので、それ以外のファイルは変更しないようにしてください。</p>
+</section>
+<section id="提出練習" class="level2">
+<h2 class="anchored" data-anchor-id="提出練習">提出練習</h2>
+<p><code>00</code>というフォルダがあるはずなのでそれを用いて提出の練習をしてみましょう。<code>00</code>の中には<code>answer.qmd</code> と <code>Project.toml</code>があるはずです。</p>
+<p>空白になっているところがあるのでそこに文章や<code>Julia</code>のコードを適当に何か書いてみましょう。</p>
+<pre><code>cd 00
+julia --project=. -e 'using Pkg; Pkg.instantiate()'   # 初回だけ
+quarto render answer.qmd</code></pre>
+<p>その後、pushして提出します。しばらくすると<code>submission-00</code>というブランチに<code>answer.pdf</code>が作られるはずなのできちんとrenderされたかどうか確かめてみましょう。</p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp('/' + window.location.host + '/');
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./Macro4-TA-Session-2.html" class="pagination-link" aria-label="TAセッション第2回">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">TAセッション第2回</span></span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./barganing.html" class="pagination-link" aria-label="Note1: Bargaining Problem">
+        <span class="nav-page-text"><span class="chapter-title">Note1: Bargaining Problem</span></span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
